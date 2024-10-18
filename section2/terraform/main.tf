@@ -2,7 +2,6 @@
 resource "aws_instance" "app_server" {
   
   # specify arguments here
-  # comment
   ami           = "ami-0ad522a4a529e7aa8" # EC2 AMI
   instance_type = "t3.small"              # EC2 Instance Type
 
